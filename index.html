@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Drag and Drop using vanila javascript</title>
 </head>
 <body>
     
+    <div class="container">
+        <section class="input-area">
+            <input type="text" id="task-input" placeholder="Add New Item">
+            <button type="button" id="btn">Add</button>
+        </section>  
+    
+        <section class="boxs-area">
+            <div class="box">
+                <header><h2>New</h2></header>
+                    <!-- <div class="item">
+        
+                        <header>
+                            <h3>Item 1</h3>
+                            <span>Drag me</span>
+                        </header>
+                    </div> -->
+            </div>
+            <div class="box">
+                <header><h2>Working</h2></header>
+            </div>
+            <div class="box">
+                <header><h2>Done</h2></header>
+            </div>
+            <div class="box">
+                <header><h2>Dilivered</h2></header>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
